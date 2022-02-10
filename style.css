@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body a {
+  text-decoration: none;
+  font-size: 25px;
+  color: red;
+  -webkit-transition: background-position 275ms ease;
+  transition: background-position 275ms ease;
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 800;
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, right top, from(red), color-stop(50%, midnightblue), color-stop(50%, #e1414e));
+  background: linear-gradient(to right, red, midnightblue 50%, #e1414e 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+}
+body a:hover {
+  background-position: 0 100%;
+}
+body p {
+  font-size: 110%;
+}
+body header h1 {
+  font-size: 50px;
+  text-shadow: 0 0 2px #fff, -1px -1px 0 #6e981b, -2px -2px 1px #6e981b, -2px -2px 2px #282a22;
+  padding-bottom: 15px;
+}
+body .overview {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+body .overview h2 {
+  text-shadow: 0 0 2px #fff;
+}
+body .sharingInformation {
+  margin-bottom: 50px;
+}
+body .whatInfCollected {
+  margin-bottom: 50px;
+}
+body .security {
+  margin-bottom: 50px;
+}
+body .linksToOthersSites {
+  margin-bottom: 50px;
+}
+body .childrenPrivacy {
+  margin-bottom: 50px;
+}
+body .distribution {
+  margin-bottom: 50px;
+}
